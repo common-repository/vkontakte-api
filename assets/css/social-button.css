@@ -1,0 +1,52 @@
+ul.nostyle,
+ul.nostyle li {
+  list-style: none;
+  background: none;
+}
+
+ul.nostyle li {
+    height: 20px;
+    line-height: 20px;
+    padding: 5px;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+ul.nostyle li:before,
+ul.nostyle li:after {
+    content: none !important;
+}
+
+ul.nostyle a {
+    border: none !important;
+}
+
+ul.nostyle li div table {
+    margin: 0;
+    padding: 0;
+}
+
+.vkapishare {
+    padding: 0 3px 0 0;
+}
+
+.vkapishare td,
+.vkapishare tr {
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    vertical-align: top !important;
+}
+
+ul.nostyle iframe {
+    max-width: none !important;
+}
+
+[id^=___plusone_] {
+    vertical-align: top !important;
+}
+
+.fb_iframe_widget {
+    width: 100%;
+}

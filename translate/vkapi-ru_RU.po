@@ -1,0 +1,542 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Social API\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-07 12:46+0400\n"
+"PO-Revision-Date: 2019-08-07 12:57+0400\n"
+"Last-Translator: admin <webtemyk@yandex.ru>\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.2.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Loco-Version: 2.3.0; wp-5.2.1\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../classes/parent.class.php:87
+msgid "Access Token out of date, please update."
+msgstr "Access Token просрочен, обновите его"
+
+#: ../classes/parent.class.php:92
+msgid "Access denied: edit time expired"
+msgstr "Доступ запрещён: срок редактирования вышел"
+
+#: ../classes/parent.class.php:97
+msgid "User authorization failed: invalid session."
+msgstr "Ошибка авторизации: некорректная сессия"
+
+#: ../classes/parent.class.php:119 ../templates/pages/modules.php:107
+#, php-format
+msgid "Extension %s not installed"
+msgstr "Расширение %s не установлено"
+
+#: ../classes/parent.class.php:190
+msgid "Activate"
+msgstr "Активировать"
+
+#: ../includes/ajax.php:22 ../includes/ajax.php:76
+msgid "You don't have enough capability to edit this information."
+msgstr "У вас недостаточно прав для редактирования этой информации"
+
+#: ../includes/class-factory-requirements.php:241
+msgid "warning"
+msgstr ""
+
+#: ../includes/class-factory-requirements.php:243
+#, php-format
+msgid "The %s plugin has stopped."
+msgstr ""
+
+#: ../includes/class-factory-requirements.php:244
+msgid "Possible reasons:"
+msgstr ""
+
+#: ../includes/class-factory-requirements.php:274
+#, php-format
+msgid "You need to update the PHP version to %s or higher!"
+msgstr ""
+
+#: ../includes/class-factory-requirements.php:281
+#, php-format
+msgid "You need to update WordPress to %s or higher!"
+msgstr ""
+
+#: ../includes/class-factory-requirements.php:288
+#, php-format
+msgid "Plugin %s is already activated, you are trying to activate it again."
+msgstr ""
+
+#: ../includes/comments.php:71
+msgid "Last Comments"
+msgstr "Последние комментарии"
+
+#: ../includes/comments.php:71 ../includes/comments.php:89
+msgid "Social Comments"
+msgstr "Социальные комментарии"
+
+#: ../includes/comments.php:77
+msgid "Comments Settings — Social API"
+msgstr "Настройки комментариев — Social API"
+
+#: ../includes/comments.php:77
+msgid "Comments Settings"
+msgstr "Настройки комментариев"
+
+#: ../includes/comments.php:134 ../includes/comments.php:135
+#: ../includes/comments.php:136
+#, php-format
+msgid "Show first %s comments"
+msgstr "Первыми показывать комментарии %s"
+
+#: ../includes/comments.php:151 ../templates/pages/comments.php:25
+#: ../templates/pages/likes.php:23
+msgid "Base"
+msgstr "Основное"
+
+#: ../includes/comments.php:157
+msgid "Media"
+msgstr "Медиа"
+
+#: ../includes/comments.php:167 ../includes/comments.php:401
+#: ../includes/comments.php:451 ../includes/likes.php:110
+#: ../includes/likes.php:178 ../includes/likes.php:246
+#: ../includes/likes.php:279 ../includes/likes.php:326
+#: ../includes/likes.php:360 ../includes/likes.php:410
+msgid "Enable"
+msgstr "Включено"
+
+#: ../includes/comments.php:180 ../includes/comments.php:414
+#: ../includes/login.php:84
+msgid "Application ID"
+msgstr "ID приложения"
+
+#: ../includes/comments.php:193 ../includes/login.php:97
+msgid "Secure key"
+msgstr "Защищенный ключ"
+
+#: ../includes/comments.php:207
+msgid "Service token"
+msgstr "Сервисный ключ доступа"
+
+#: ../includes/comments.php:214
+msgid "Этот ключ нужен для обращения к api Вконтакте. <a href=\""
+msgstr ""
+
+#: ../includes/comments.php:222
+msgid "Height of widget"
+msgstr "Высота виджета"
+
+#: ../includes/comments.php:235
+msgid "Width of widget"
+msgstr "Ширина виджета"
+
+#: ../includes/comments.php:248
+msgid "Number of comments"
+msgstr "Количество комментариев"
+
+#: ../includes/comments.php:261
+msgid "AutoPublish to vk user wall"
+msgstr "Автопубликация на стене пользователя"
+
+#: ../includes/comments.php:274
+msgid "Hide WordPress comments"
+msgstr "Убрать комментарии WordPress"
+
+#: ../includes/comments.php:287
+msgid "Notice by email about new comment"
+msgstr "Уведомить по email о новых комментариях"
+
+#: ../includes/comments.php:300
+msgid "Attach to post id"
+msgstr "Привязать к ID записи"
+
+#: ../includes/comments.php:313
+msgid "Comments switcher"
+msgstr "Переключатель комментариев"
+
+#: ../includes/comments.php:328
+msgid "Graffiti"
+msgstr "Графити"
+
+#: ../includes/comments.php:341
+msgid "Photo"
+msgstr "Фото"
+
+#: ../includes/comments.php:354
+msgid "Audio"
+msgstr "Аудио"
+
+#: ../includes/comments.php:367
+msgid "Video"
+msgstr "Видео"
+
+#: ../includes/comments.php:380 ../includes/crosspost.php:603
+#: ../includes/likes.php:203
+msgid "Link"
+msgstr "Ссылка"
+
+#: ../includes/comments.php:432
+msgid "Social comments"
+msgstr "Социальные комментарии"
+
+#: ../includes/comments.php:457 ../includes/likes.php:414
+msgid "Disable"
+msgstr "Выключено"
+
+#: ../includes/comments.php:522 ../includes/comments.php:582
+msgid "Page has just commented!"
+msgstr "Страницу только что прокомментировали."
+
+#: ../includes/comments.php:524
+msgid "Comment: "
+msgstr "Комментарий:"
+
+#: ../includes/comments.php:526 ../includes/comments.php:585
+#: ../php/cron.php:102 ../php/cron.php:114 ../php/cron.php:129
+msgid "Website:"
+msgstr "Сайт:"
+
+#: ../includes/comments.php:868
+msgid "VKontakte"
+msgstr "ВКонтакте"
+
+#: ../includes/comments.php:883
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../includes/comments.php:903
+msgid "Site"
+msgstr "Обычные"
+
+#: ../includes/comments.php:918
+msgid "Comments:"
+msgstr "Комментарии:"
+
+#: ../includes/comments.php:1088
+msgid "Email about new social comments"
+msgstr "Уведомить по email о новых комментариях"
+
+#: ../includes/crosspost.php:55
+msgid "Crosspost Settings — Social API"
+msgstr "Кросспостинг — Social API"
+
+#: ../includes/crosspost.php:55 ../templates/pages/crosspost.php:2
+msgid "Crosspost Settings"
+msgstr "Настройки кросспостинга"
+
+#: ../includes/crosspost.php:75
+msgid "Access Token"
+msgstr "Ключ Доступа"
+
+#: ../includes/crosspost.php:97
+msgid "Group ID"
+msgstr "ID группы"
+
+#: ../includes/crosspost.php:113
+msgid "Enable by default"
+msgstr "Включить по умолчанию"
+
+#: ../includes/crosspost.php:126
+msgid "Post types"
+msgstr "Типы записей"
+
+#: ../includes/crosspost.php:139
+msgid "Title"
+msgstr "Заголовок"
+
+#: ../includes/crosspost.php:152 ../includes/crosspost.php:319
+msgid "Text length"
+msgstr "Длина текста"
+
+#: ../includes/crosspost.php:159
+msgid "(0=unlimited, -1=Don't send text)"
+msgstr "(0=неограниченно, -1=Не отправлять текст)"
+
+#: ../includes/crosspost.php:165 ../includes/crosspost.php:328
+msgid "Images count"
+msgstr "Количество изображений"
+
+#: ../includes/crosspost.php:178
+msgid "Publication delay (in minutes)"
+msgstr "Задержка публикации (в минутах)"
+
+#: ../includes/crosspost.php:191
+msgid "Convert tags to hashtags"
+msgstr "Сконвертировать теги в хештеги"
+
+#: ../includes/crosspost.php:204
+msgid "Convert categories to hashtags"
+msgstr "Сконвертировать названия категорий в хештеги"
+
+#: ../includes/crosspost.php:217
+msgid "Show link"
+msgstr "Добавить ссылку"
+
+#: ../includes/crosspost.php:230
+msgid "Signed by author"
+msgstr "Подпись автора"
+
+#: ../includes/crosspost.php:248
+msgid "Settings of crossposting"
+msgstr "Настройки постинга"
+
+#: ../includes/crosspost.php:310
+msgid "CrossPost to VK.com Wall"
+msgstr "Постинг на стену ВК"
+
+#: ../includes/crosspost.php:406
+msgid "Added to scheduler!"
+msgstr "Добавлено в планировщик!"
+
+#: ../includes/likes.php:48
+msgid "Likes Settings — Social API"
+msgstr "Настройки кнопок — Social API"
+
+#: ../includes/likes.php:48 ../templates/pages/likes.php:20
+msgid "Likes Settings"
+msgstr "Настройки кнопок"
+
+#: ../includes/likes.php:68 ../includes/likes.php:76
+msgid "Show before post"
+msgstr "Показывать перед записью"
+
+#: ../includes/likes.php:77
+msgid "Show after post"
+msgstr "Показывать после записи"
+
+#: ../includes/likes.php:85
+msgid "Align"
+msgstr "Позиция"
+
+#: ../includes/likes.php:93
+msgid "left"
+msgstr "Cлева"
+
+#: ../includes/likes.php:94
+msgid "right"
+msgstr "Cправа"
+
+#: ../includes/likes.php:103 ../includes/likes.php:239
+#: ../includes/likes.php:272 ../includes/likes.php:319
+#: ../includes/likes.php:353
+msgid "Like button"
+msgstr "Кнопка \"Мне нравится\""
+
+#: ../includes/likes.php:123 ../includes/likes.php:191
+msgid "Button style"
+msgstr "Стиль кнопки"
+
+#: ../includes/likes.php:131
+msgid "Button with text counter"
+msgstr "Текстовый счётчик"
+
+#: ../includes/likes.php:132
+msgid "Button with mini counter"
+msgstr "Миниатюрный счётчик"
+
+#: ../includes/likes.php:133
+msgid "Mini button"
+msgstr "Миниатюрная кнопка"
+
+#: ../includes/likes.php:134
+msgid "Mini button with counter at the top"
+msgstr "Миниатюрная кнопка, счётчик сверху"
+
+#: ../includes/likes.php:142
+msgid "Statement"
+msgstr "Формулировка"
+
+#: ../includes/likes.php:150
+msgid "I like"
+msgstr "Мне нравится"
+
+#: ../includes/likes.php:151
+msgid "It's interesting"
+msgstr "Это интересно"
+
+#: ../includes/likes.php:159 ../includes/likes.php:225
+#: ../includes/likes.php:259 ../includes/likes.php:292
+#: ../includes/likes.php:339 ../includes/likes.php:373
+msgid "Show in Categories page and Home"
+msgstr "Показывать в Рубриках и на Главной"
+
+#: ../includes/likes.php:171
+msgid "Share button"
+msgstr "Кнопка «Поделиться»"
+
+#: ../includes/likes.php:199
+msgid "Button"
+msgstr "Кнопка"
+
+#: ../includes/likes.php:200
+msgid "Button without a Counter"
+msgstr "Кнопка без счетчика"
+
+#: ../includes/likes.php:201
+msgid "Button Right Angles"
+msgstr "Кнопка Прямые углы"
+
+#: ../includes/likes.php:202
+msgid "Button without a Counter Right Angles"
+msgstr "Кнопка без счетчика Прямые углы"
+
+#: ../includes/likes.php:204
+msgid "Link without an Icon"
+msgstr "Ссылка без иконки"
+
+#: ../includes/likes.php:212
+msgid "Text on the button"
+msgstr "Текст на кнопке"
+
+#: ../includes/likes.php:305
+msgid "Twitter account"
+msgstr "Twitter аккаунт"
+
+#: ../includes/likes.php:391
+msgid "Social Likes"
+msgstr "Социальные лайки"
+
+#: ../includes/login.php:61
+msgid "Login Settings — Social API"
+msgstr "Настройки логина — Social API"
+
+#: ../includes/login.php:61 ../templates/pages/login.php:2
+msgid "Login Settings"
+msgstr "Настройки логина"
+
+#: ../libs/factory/adverts/includes/class-adverts-dashboard-widget.php:55
+msgid "News"
+msgstr ""
+
+#: ../templates/pages/comments.php:38 ../templates/pages/login.php:5
+#, php-format
+msgid ""
+"If you dont have <b>Application ID</b> and <b>Secure key</b> : go this <a "
+"href=\"%s\" target=\"_blank\">link</a> and select <b>Web-site</b>. It's easy."
+msgstr ""
+"Если у Вас нет <b>ID приложения</b> и <b>Защищенного ключа</b> : перейдите "
+"по этой <a href=\"%s\" target=\"_blank\">ссылке</a> и зарегестрируйте ваш "
+"сайт(блог). Это просто!"
+
+#: ../templates/pages/comments.php:42 ../templates/pages/login.php:9
+#, php-format
+msgid ""
+"If don't remember: go this <a href=\"%s\" target=\"_blank\">link</a> and "
+"choose need application."
+msgstr ""
+"Если не помните: перейдите по этой <a href=\"%s\" target=\"_blank\">ссылке</"
+"a> и выберите нужное приложение."
+
+#: ../templates/pages/comments.php:51
+#, php-format
+msgid ""
+"Facebook <b>App ID</b> : go this <a href=\"%s\" target=\"_blank\">link</a> "
+"and register your site(blog). It's easy."
+msgstr ""
+"Facebook <b>ID приложения</b> : перейдите по этой <a href=\"%s\" target="
+"\"_blank\">ссылке</a> и зарегестрируйте ваш сайт(блог). Это просто!"
+
+#: ../templates/pages/modules.php:64
+msgid "Social API Modules"
+msgstr "Social API модули"
+
+#: ../templates/pages/modules.php:66
+msgid ""
+"Модули расширяют и дополняют социальную составляющую WordPress.\n"
+"\t\t\t\t\tВы всегда можете связаться с автором плагина в случае "
+"возникновения трудностей.\n"
+"\t\t\t\t\tТак же вы в силах запросить дополнительный функционал."
+msgstr ""
+
+#: ../templates/pages/modules.php:78
+msgid "Comments"
+msgstr "Комментарии"
+
+#: ../templates/pages/modules.php:80
+msgid "Add social comments to different post types"
+msgstr "Добавить социальные комментарии для других типов постов"
+
+#: ../templates/pages/modules.php:83 ../templates/pages/modules.php:104
+#: ../templates/pages/modules.php:129 ../templates/pages/modules.php:149
+#: ../templates/pages/modules.php:170
+msgid "<strong>Совместим</strong> с вашей версией WordPress."
+msgstr ""
+
+#: ../templates/pages/modules.php:98
+msgid "Crosspost"
+msgstr "Кросспост"
+
+#: ../templates/pages/modules.php:100
+msgid "Featured, delayed post with photo, hashtags etc."
+msgstr "Отложенный постинг с фотографиями, хэштегами и т.д."
+
+#: ../templates/pages/modules.php:124
+msgid "Likes"
+msgstr "Лайки"
+
+#: ../templates/pages/modules.php:126
+msgid "Add social \"likes\" to wordpress post types"
+msgstr "Добавляет кнопки \"Лайк\" к постам Wordpress"
+
+#: ../templates/pages/modules.php:144
+msgid "Login"
+msgstr "Логин"
+
+#: ../templates/pages/modules.php:146
+msgid "Add log in capability with social networks"
+msgstr "Добавляет возможность входа через социальные сети"
+
+#: ../templates/pages/modules.php:165 ../vkontakte-api.php:388
+#: ../vkontakte-api.php:526
+msgid "Misc"
+msgstr "Разное"
+
+#: ../templates/pages/modules.php:167
+msgid "Some useful things"
+msgstr "Полезные вещи"
+
+#: ../templates/pages/modules.php:186
+#, php-format
+msgid ""
+"Yesterday plugin downloaded %s, %s for the week, and last month %s times."
+msgstr "Вчера плагин скачали %s, %s за неделю, и за последний месяц %s раз."
+
+#: ../vkontakte-api.php:38
+msgid "VKontakte API"
+msgstr "ВКонтакте"
+
+#: ../vkontakte-api.php:371 ../vkontakte-api.php:376
+msgid "Modules"
+msgstr "Модули"
+
+#: ../vkontakte-api.php:428 ../vkontakte-api.php:476
+msgid "Settings"
+msgstr "Настройки кнопок"
+
+#: ../vkontakte-api.php:560
+msgid "Disable Revision Post Save"
+msgstr "Отключить сохранение ревизий постов"
+
+#~ msgid "VKontakte API - crossposting, comments, social buttons, login"
+#~ msgstr ""
+#~ "VKontakte API - автопостинг, виджеты комментариев, кнопки лайк, "
+#~ "авторизация"
+
+#~ msgid "Add API functions from vk.com in your own blog."
+#~ msgstr "Добавить API  функции vk.com в ваш блог"
+
+#~ msgid "https://wordpress.org/plugins/vkontakte-api/"
+#~ msgstr "https://wordpress.org/plugins/vkontakte-api/"
+
+#~ msgid "Webcraftic"
+#~ msgstr "Webcraftic"
+
+#~ msgid "https://clearfy.com"
+#~ msgstr "https://clearfy.com"
